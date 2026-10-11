@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>History — Resume Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">Resume <span class="brand-mark">Desk</span></div>
+  <nav class="tabs">
+    <a href="/">Chat</a>
+    <a href="/interview">Interview</a>
+    <a href="/history" class="active">History</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Everything you've reviewed.</h1>
+    <p>Every resume analysis and mock interview is saved here — click any entry to expand it.</p>
+  </section>
+
+  <section class="card">
+    <div id="historyList">
+      <p class="card-sub">Loading history...</p>
+    </div>
+  </section>
+</main>
+
+<script src="/static/js/utils.js"></script>
+<script src="/static/js/history.js"></script>
+</body>
+</html>
